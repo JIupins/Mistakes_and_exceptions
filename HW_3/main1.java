@@ -2,29 +2,29 @@ import java.util.Scanner;
 
 public class main1 {
     public static void main(String[] args) {
-        Double[] numbers= inputData();
+        Double[] numbers = inputData();
         try {
-            System.out.printf("Сумма: %f\n", calculator.sum(numbers[0],numbers[1]));
+            System.out.printf("Сумма: %f\n", calculator.sum(numbers[0], numbers[1]));
         } catch (Exception e) {
             System.out.println("Суммирование. Получена ошибка: " + e.getMessage());
         }
         try {
-            System.out.printf("Разность: %f\n", calculator.difference(numbers[0],numbers[1]));
+            System.out.printf("Разность: %f\n", calculator.difference(numbers[0], numbers[1]));
         } catch (Exception e) {
             System.out.println("Вычитвние. Получена ошибка: " + e.getMessage());
         }
         try {
-            System.out.printf("Произведение: %f\n", calculator.creation(numbers[0],numbers[1]));
+            System.out.printf("Произведение: %f\n", calculator.creation(numbers[0], numbers[1]));
         } catch (Exception e) {
             System.out.println("Умножение. Получена ошибка: " + e.getMessage());
         }
         try {
-            System.out.printf("Частное: %f\n", calculator.quotient(numbers[0],numbers[1]));
+            System.out.printf("Частное: %f\n", calculator.quotient(numbers[0], numbers[1]));
         } catch (Exception e) {
             System.out.println("Деление. Получена ошибка: " + e.getMessage());
         }
         try {
-            System.out.printf("Возведение в степень: %f\n", calculator.calculatePower(numbers[0],numbers[1]));
+            System.out.printf("Возведение в степень: %f\n", calculator.calculatePower(numbers[0], numbers[1]));
         } catch (Exception e) {
             System.out.println("Возведение в степень. Получена ошибка: " + e.getMessage());
         }

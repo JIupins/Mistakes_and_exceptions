@@ -35,9 +35,3 @@ public class Hw_2_1 {
         }
     } 
 }
-
-class InvalidNumberException extends Exception {
-    public InvalidNumberException(String message) {
-        super(message);
-    }
-}
